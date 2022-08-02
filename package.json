@@ -1,0 +1,17 @@
+{
+  "name": "proxyjs",
+  "version": "1.0.0",
+  "description": "A simple HTTP/HTTPS proxy to use in tests simulation.",
+  "main": "index.cjs",
+  "repository": "https://github.com/pedrorobsonleao/proxyjs",
+  "author": "pedro.leao@gmail.com",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1"
+  },
+  "scripts": {
+    "start": "node --trace-uncaught --experimental-json-modules  index.cjs"
+  }
+}
